@@ -1,0 +1,108 @@
+body {
+    font-family: "Shrikhand";
+    background-color: #003a8b;
+  }
+
+  header {
+    font-size:55px; 
+    font-family: "Merienda One";
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(255,218,163);
+    background: linear-gradient(0deg, rgba(255,218,163,1) 0%, rgba(0,58,139,1) 100%);
+    padding: 10px;
+    color:black;
+    text-shadow: 2px 2px 10px crimson;
+  }
+
+  #form-background {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(0,58,139);
+    background: linear-gradient(0deg, rgba(0,58,139,1) 0%, rgba(255,218,163,1) 100%);
+    padding: 10px;
+    color: black
+    
+  }
+  .form-elements {
+    margin-right:10px;
+  }
+
+  label.formlayout {
+    display: block;
+    margin: auto;
+    padding-bottom: 4px;
+  }
+
+  .button-elements {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #003a8b;
+    padding: 10px;
+    color: 	#FFD700;
+  
+  }
+  .space-button {
+  margin-left: 5px;
+  background-color:black;
+  font-weight: bold;
+  font-size: small;
+  text-transform: uppercase;
+  color: 	#FFD700
+  ;
+  }
+
+  h1{
+    font-size:25px; 
+    font-family: "Merienda One";
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 2px 2px 5px	#FFD700
+  }
+
+  h3{
+    font-size:20px; 
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  p{
+    font-size:15px; 
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #bucket-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: center;
+  }
+  
+  .bucket-list-item { 
+    border-radius: 50% 50% 50% 50% / 12% 12% 88% 88%;
+    width: 140px;
+    min-height: 100px;
+    display: wrap;
+    line-height: 8px;
+    margin-bottom: 20px;
+    background: rgb(116,174,255);
+    background: linear-gradient(0deg, rgba(255,218,163,1) 0%, rgba(0,58,139,1) 100%);
+    border: 5px solid ;
+    margin: 20px;
+    padding: 40px;
+    box-shadow: 10px 10px 10px #070000;
+    justify-content: center;
+  }

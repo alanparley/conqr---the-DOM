@@ -1,29 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+<header>
+    &#128481;&nbsp <b>conqr</b> &nbsp &#128481;
+    </span>
+    <nav>
+    </nav>
+</header>
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Another Travel Bucket List App</title>
+    <title>conqr</title>
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
     <script src="js/app.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda+One&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <form action="new-item-form">
-        <div id="form-wrapper">
-            <div class="form-item">
-                <label for="city" class="formlayout">City</label>
+    <form id="new-item-form">
+        <div id="form-background">
+            <div class="form-elements">
+                <label for="city" class="formlayout"> &nbsp; &#127984; &nbsp; City
+                </label>
                 <input type="text" id="city" required />
             </div>
 
-            <div class="form-item">
-                <label for="country" class="formlayout">Country</label>
-                <input type="text" id="city" required>
+            <div class="form-elements">
+                <label for="country" class="formlayout">&#127757; Country </label>
+                <input type="text" id="country" required>
             </div>
 
-            <div class="form-item">
-                <label for="continent" class="formlayout">Continent</label>
+            <div class="form-elements">
+                <label for="continent" class="formlayout">&#127760; Continent </label>
                 <select id="continent">
                     <option value="" disabled selected></option>
                     <option value="Asia">Asia</option>
@@ -34,15 +43,29 @@
                     <option value="Europe">Europe</option>
                     <option value="Australia">Australia</option>
                 </select>
+
             </div>
+
         </div>
-        <input type="submit" value="save" />
+        <div class="button-elements">
+            <input type="radio" id="visited" name="visited" value="Conquered &#10004;">
+            <label for="visited">Conquered &nbsp &nbsp &nbsp</label><br>
+            <input class="form-elements" type="radio" id="visited" name="visited" value="
+            Unconquered: &#10008;">
+            <label for="notvisited">
+                Unconquered</label><br>
+        </div>
+        <div class="button-elements">
+            <input class="space-button" type="submit" value="Save" />
+            <button class="space-button" id="delete-all">Delete All</button>
+
+        </div>
     </form>
 
-    <button id="delete-all">Delete All</button>
 
-    <h1>Travel Bucket List</h1>
-    <ul id="bucket-list"></ul>
+
+    <h1><b>&#127993; Here are all the realms you'd love to conquer &#127993; </b></h1>
+    <ul id="bucket-list"> </ul>
 
 </body>
 
