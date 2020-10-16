@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Another Travel Bucket List App</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <script src="js/app.js"></script>
+</head>
+
+<body>
+    <form action="new-item-form">
+        <div id="form-wrapper">
+            <div class="form-item">
+                <label for="city" class="formlayout">City</label>
+                <input type="text" id="city" required />
+            </div>
+
+            <div class="form-item">
+                <label for="country" class="formlayout">Country</label>
+                <input type="text" id="city" required>
+            </div>
+
+            <div class="form-item">
+                <label for="continent" class="formlayout">Continent</label>
+                <select id="continent">
+                    <option value="" disabled selected></option>
+                    <option value="Asia">Asia</option>
+                    <option value="Africa">Africa</option>
+                    <option value="North America">North America</option>
+                    <option value="South America">South America</option>
+                    <option value="Antarctica">Antarctica</option>
+                    <option value="Europe">Europe</option>
+                    <option value="Australia">Australia</option>
+                </select>
+            </div>
+        </div>
+        <input type="submit" value="save" />
+    </form>
+
+    <button id="delete-all">Delete All</button>
+
+    <h1>Travel Bucket List</h1>
+    <ul id="bucket-list"></ul>
+
+</body>
+
+</html>
