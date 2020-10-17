@@ -100,7 +100,9 @@ body {
     margin-bottom: 20px;
     background: rgb(116,174,255);
     background: linear-gradient(0deg, rgba(255,218,163,1) 0%, rgba(0,58,139,1) 100%);
-    border: 5px solid ;
+    border-style: groove;
+    border-color: goldenrod;
+    border-width: 7px;
     margin: 20px;
     padding: 40px;
     box-shadow: 10px 10px 10px #070000;
