@@ -20,8 +20,8 @@ const createBucketListItem = function (form) {
     const bucketListItem = document.createElement('li');
     bucketListItem.classList.add('bucket-list-item');
 
-    const city = document.createElement('h1');
-    city.textContent = form.city.value;
+    const city = document.createElement('h4');
+    city.textContent = form.city.value.toUpperCase();
     bucketListItem.appendChild(city);
 
     const country = document.createElement('h3');
