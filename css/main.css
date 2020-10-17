@@ -22,7 +22,7 @@ body {
     background: linear-gradient(0deg, rgba(255,218,163,1) 0%, rgba(0,58,139,1) 100%);
     padding: 10px;;
     color:black;
-    text-shadow: 2px 2px 10px red;
+    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
   }
 
   #form-background {
@@ -119,13 +119,13 @@ body {
   }
 
 h6{
-    font-size:15px; 
+    font-size:18px; 
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     color: black;
-    text-shadow: 0px 5px 5px yellow;
+    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
 }
   #bucket-list {
     display: flex;
