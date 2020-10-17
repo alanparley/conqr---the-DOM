@@ -139,7 +139,8 @@ h6{
   .bucket-list-item { 
     
     border-radius: 50% 50% 50% 50% / 12% 12% 88% 88%;
-    width: 200px;
+    min-width: 200px;
+    width: max-content;
     min-height: 100px;
     display: wrap;
     line-height: 8px;
