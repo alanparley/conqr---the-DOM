@@ -32,7 +32,7 @@ const createBucketListItem = function (form) {
     continent.textContent = form.continent.value;
     bucketListItem.appendChild(continent);
 
-    const visited = document.createElement('p');
+    const visited = document.createElement('h6');
     visited.textContent = form.visited.value;
     bucketListItem.appendChild(visited)
 
